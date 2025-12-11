@@ -46,11 +46,3 @@ sudo apt install intel-opencl-icd
 ```
 
 If you are using a CPU that is Older than 12-th gen then you can [[How to install latest OpenCL-legacy1 drivers|follow this guide]] to install correct latest available **OpenCL** drivers (also works perfectly for your *glorious* **Thinkpad T480 i5-8350u iGPU**).
-## Optional
-Also you can download this package `clinfo` to check if drivers are recognized properly:
-```
-sudo apt install clinfo
-```
-```
-clinfo | grep -E 'Platform Name|Device'
-```
